@@ -1,0 +1,48 @@
+# Change Directories
+cd
+
+#Home Directory
+cd ~
+
+#Previous Directory
+cd ..
+
+#List non hidden files in directory
+ls
+
+#List all files in directory
+ls -a
+
+#List all Directories
+ls -F
+
+#You can also specify another directory to the one you're in
+ls ./other-file
+
+#Check if file exists, if not create an empty file with that name
+touch filename.txt
+
+#Standard Linux text editors
+nano filename.txt
+vim filename.txt
+
+#Generate new ssh key pair
+ssh-keygen
+
+#Create a new directory 
+mkdir directoryname
+
+#Delete a file
+rm filename.txt
+
+#Delete a file 'force'
+rm -f filename.txt
+
+#Delete a directory and all contents (force, recurrsive) 
+rm -fr directoryname
+
+#Move a file
+mv filename.txt ./newlocation/filename.txt
+
+#Rename a file (yes it's just the move command)
+mv filename.txt newname.txt
