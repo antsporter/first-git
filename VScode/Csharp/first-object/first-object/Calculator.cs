@@ -10,22 +10,30 @@ namespace first_object
     {
         public void add(int a, int b)
         {
-            Console.WriteLine("Your Answer is: "+ a + b);
+            float addition;
+            addition = a + b;
+            Console.WriteLine("Your Answer is: "+ addition);
         }
         
         public void sub(int a, int b)
         {
-            Console.WriteLine("Your Answer is: "+ a - b);
+            float subtract;
+            subtract = a - b;
+            Console.WriteLine("Your Answer is: "+ subtract);
         }
 
         public void mult(int a, int b)
         {
-            Console.WriteLine("Your Answer is: "+ a * b);
+            float multiply;
+            multiply = a * b;
+            Console.WriteLine("Your Answer is: "+ multiply);
         }
 
         public void div(float a, float b)
         {
-            Console.WriteLine("Your Answer is: "+ a / b);
+            float divide;
+            divide = a / b;
+            Console.WriteLine("Your Answer is: "+ divide);
         }
 
     }
